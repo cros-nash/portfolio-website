@@ -3,7 +3,7 @@
 import React from 'react'
 import Title from './Title';
 import { HoverEffect } from '@/components/ui/card-hover-effect';
-import { SiPython } from "react-icons/si";
+import {SiPython, SiJavascript, SiNodedotjs, SiHtml5, SiGnubash, SiOcaml} from "react-icons/si";
 
 export default function Skills() {
     const skills = [
@@ -12,12 +12,24 @@ export default function Skills() {
             Icon: SiPython
         },
         {
-            text: "Python",
-            Icon: SiPython
+            text: "JavaScript",
+            Icon: SiJavascript
         },
         {
-            text: "Python",
-            Icon: SiPython
+            text: "Node.js",
+            Icon: SiNodedotjs
+        },
+        {
+            text: "HTML5",
+            Icon: SiHtml5
+        },
+        {
+            text:"Bash",
+            Icon: SiGnubash
+        },
+        {
+            text:"OCaml",
+            Icon: SiOcaml
         }
     ]
 
