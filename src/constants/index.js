@@ -187,10 +187,10 @@ const experiences = [
     image: humanaiclass,
     source_code_link: "https://github.com/cros-nash/Human-ML-Real-Fake-Performance",
   },
-  {
+{
     name: "E-Commerce Django Platform",
     description:
-      "Built a multi-tier Django commerce app from scratch featuring object-oriented design, SQL-backed relational models, and user authentication. Designed for hands-on exploration of backend integration and database interaction.",
+      "Developed a multi-tier Django commerce application from scratch, incorporating object-oriented design, SQL relational models, and robust user authentication. Automated the build and deployment process to AWS ECR/ECS Fargate using Docker and GitHub Actions for continuous integration and delivery.",
     tags: [
       {
         name: "django",
@@ -203,6 +203,18 @@ const experiences = [
       {
         name: "python",
         color: "pink-text-gradient",
+      },
+      {
+        name: "github-actions",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "aws-ecs",
+        color: "yellow-text-gradient",
       },
     ],
     image: ecommerce,
